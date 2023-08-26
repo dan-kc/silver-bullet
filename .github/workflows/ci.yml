@@ -1,9 +1,9 @@
 name: 🧪 CI
 on:
   push:
-    branches: [ main, master ]
+    branches: [main, master]
   pull_request:
-    branches: [ main, master ]
+    branches: [main, master]
 
 jobs:
   lint:
@@ -19,7 +19,7 @@ jobs:
       - name: ⎔ Setup node
         uses: actions/setup-node@v3
         with:
-          node-version: 16.7.0
+          node-version: 16.14.0
 
       - name: 📥 Download deps
         uses: bahmutov/npm-install@v1

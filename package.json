@@ -1,0 +1,17 @@
+{
+  "name": "silver-bullet",
+  "private": true,
+  "version": "1.0.0",
+  "description": "pew pew",
+  "author": "dan",
+  "license": "MIT",
+  "workspaces": [
+    "workers/*",
+    "config/*"
+  ],
+  "scripts": {
+    "build": "npx --yes turbo run build",
+    "dev": "npx --yes turbo run dev --parallel",
+    "lint": "npx --yes turbo run lint"
+  }
+}

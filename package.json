@@ -15,7 +15,8 @@
     "dev": "npx --yes turbo run dev --parallel",
     "lint": "npx --yes turbo run lint",
     "test": "npx --yes turbo run test",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "typecheck": "npx --yes turbo run typecheck"
   },
   "lint-staged": {
     "./workers/**/*.{js,ts,jsx,tsx}": [

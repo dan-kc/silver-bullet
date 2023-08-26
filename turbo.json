@@ -11,6 +11,9 @@
       "outputs": []
     },
     "start": {},
-    "test": {}
+    "test": {},
+    "typecheck": {
+      "outputs": ["tsconfig.tsbuildinfo"]
+    }
   }
 }

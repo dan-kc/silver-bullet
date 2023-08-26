@@ -18,9 +18,6 @@
   "lint-staged": {
     "./workers/**/*.{js,ts,jsx,tsx}": [
       "eslint --fix"
-    ],
-    "./config/**/*.{js,ts,jsx,tsx}": [
-      "eslint --fix"
     ]
   },
   "devDependencies": {

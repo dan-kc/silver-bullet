@@ -1,11 +1,10 @@
 {
-  "name": "@config/eslint-config-custom",
+  "name": "@config/eslint-config",
   "main": "index.js",
   "version": "1.0.0",
   "dependencies": {
     "eslint": "latest",
     "prettier": "latest",
-    "eslint-plugin-prettier": "latest",
-    "eslint-config-turbo": "latest"
+    "eslint-plugin-prettier": "latest"
   }
 }

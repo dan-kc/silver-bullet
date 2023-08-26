@@ -22,8 +22,8 @@
   },
   "devDependencies": {
     "@remix-run/eslint-config": "^1.19.3",
+    "@config/eslint-config": "*",
     "prettier-plugin-tailwindcss": "latest",
-    "@config/eslint-config-custom": "*",
     "@cloudflare/workers-types": "^3.19.0",
     "@remix-run/dev": "^1.19.3",
     "@types/react": "^18.0.35",

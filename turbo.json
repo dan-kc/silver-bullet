@@ -9,6 +9,7 @@
     },
     "lint": {
       "outputs": []
-    }
+    },
+    "start": {}
   }
 }

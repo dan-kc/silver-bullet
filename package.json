@@ -11,6 +11,7 @@
   ],
   "scripts": {
     "build": "npx --yes turbo run build",
+    "start": "npx --yes turbo run start --parallel",
     "dev": "npx --yes turbo run dev --parallel",
     "lint": "npx --yes turbo run lint",
     "prepare": "husky install"

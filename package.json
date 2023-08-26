@@ -12,6 +12,19 @@
   "scripts": {
     "build": "npx --yes turbo run build",
     "dev": "npx --yes turbo run dev --parallel",
-    "lint": "npx --yes turbo run lint"
+    "lint": "npx --yes turbo run lint",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "./workers/**/*.{js,ts,jsx,tsx}": [
+      "eslint --fix"
+    ],
+    "./config/**/*.{js,ts,jsx,tsx}": [
+      "eslint --fix"
+    ]
+  },
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1"
   }
 }
